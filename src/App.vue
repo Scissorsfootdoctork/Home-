@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <div id="nav">
-            home+
+            home+ my = home
         </div>
         <router-view/>
     </div>
