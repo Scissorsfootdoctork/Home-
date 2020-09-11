@@ -4,11 +4,13 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 import './assets/styles/global.scss'
+import echarts from 'echarts'
 
+Vue.prototype.$echarts = echarts
 Vue.config.productionTip = false
 
 new Vue({
-  router,
-  store,
-  render: h => h(App)
+    router,
+    store,
+    render: h => h(App)
 }).$mount('#app')

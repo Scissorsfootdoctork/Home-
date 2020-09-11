@@ -86,7 +86,7 @@ $ratio: 375 / 10;
   opacity: 1;
 }
 
-$homeAnimationTime: .3s;
+$homeAnimationTime: .2s;
 .slide-down-enter-active, .slide-down-leave-active, .slide-up-enter-active, .slide-up-leave-active, .fade-enter-active, .fade-leave-active, .slide-right-enter-active, .slide-right-leave-active, .popup-slide-up-enter-active, .popup-slide-up-leave-active {
   transition: all $homeAnimationTime linear;
 }
